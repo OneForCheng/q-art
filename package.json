@@ -1,0 +1,19 @@
+{
+  "name": "q-art",
+  "version": "1.0.0",
+  "description": "a quick query tool for article with url",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OneForCheng/q-art.git"
+  },
+  "author": "oneforcheng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OneForCheng/q-art/issues"
+  },
+  "homepage": "https://github.com/OneForCheng/q-art#readme"
+}
