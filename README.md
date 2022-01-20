@@ -1,2 +1,8 @@
 # q-art
-a quickly query and collect url of article tool
+
+a quick query tool for article with url.
+
+### spikes:
+
+- [ ] use MeiliSearch to query
+- [ ] integrate with Alfred workflow
