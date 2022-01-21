@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { v4: uuid4 } = require('uuid')
 
 const getEntryFilePath = () => {
     const entry = process.argv[2] || 'default';
@@ -15,6 +16,7 @@ const saveData = (filePath, data) => {
 }
 
 const getNewItem = () => ({
+    uuid: uuid4(),
     title: process.argv[3] || '',
     content: process.argv[4] || '',
 })

@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/OneForCheng/q-art/issues"
   },
-  "homepage": "https://github.com/OneForCheng/q-art#readme"
+  "homepage": "https://github.com/OneForCheng/q-art#readme",
+  "dependencies": {
+    "uuid": "^8.3.2"
+  }
 }
